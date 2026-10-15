@@ -1,0 +1,30 @@
+1. Inventaire des valeurs observées pour chaque donnée
+nom_auteur : Madani, Amrani, Karim, Idrissi, Alaoui
+
+prenom_auteur : Ali, Sara, Youssef, Amine, Nadia
+
+email_auteur : madani@mail.com, sara@mail.com, youssef@mail.com, amine@mail.com, nadia@mail.com
+
+nom_ville : Tanger, Rabat
+
+nom_categorie : Développement, Actualité
+
+2. Valeurs répétées pour une même donnée
+Pour la donnée nom_ville :
+
+La valeur Tanger se répète 3 fois (lignes 1, 2 et 4).
+
+La valeur Rabat se répète 2 fois (lignes 3 et 5).
+
+Pour la donnée nom_categorie :
+
+La valeur Développement se répète 3 fois (lignes 1, 2 et 4).
+
+La valeur Actualité se répète 2 fois (lignes 3 et 5).
+
+Pour les données nom_auteur, prenom_auteur et email_auteur :
+
+Aucune valeur ne se répète dans ce jeu de données (chaque valeur est unique).
+
+3. Explication du problème posé par une répétition lors d'une modification
+Si l'on souhaite modifier la catégorie « Développement » en « Développement Web » à l'avenir, il faudra modifier manuellement cette valeur sur plusieurs lignes (occurrences). Si le tableau contient des milliers de lignes, il existe un risque élevé d'oublier de modifier certaines occurrences, ce qui entraînerait des incohérences dans les données (une partie des auteurs aurait « Développement » et une autre « Développement Web »).
