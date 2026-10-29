@@ -66,10 +66,17 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 24px; 
 }
 .conteneur-pied-de-page {
     display: flex;
+    gap: 48px;
     flex-direction: row;
     justify-content:space-between;
     align-items: center;
+    
+}
+.liens-navigation {
+    display: flex;
+    gap: 24px; 
 }
