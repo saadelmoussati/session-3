@@ -1,7 +1,36 @@
+.banniere-accueil {
+    text-align: center;
+    padding: 80px 20px 40px 20px;
+}
+
+.banniere-accueil h1 {
+    font-size: 2.8rem;
+    color: #111827;
+    line-height: 1.2;
+    margin-bottom: 20px;
+    font-weight: 800;
+}
+
+.banniere-accueil h1 span {
+    color: #2563eb;
+}
+
+.banniere-accueil p {
+    max-width: 650px;
+    margin: 0 auto;
+    color: #4b5563;
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
 .conteneur-articles {
     max-width: 1200px;
-    margin: 0 auto; 
+    margin: 0 auto;
+    padding: 40px 20px;
 }
-.section-articles {
-    padding: 80px 24px;
+
+.grille-articles {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 30px;
 }
